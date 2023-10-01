@@ -1,0 +1,15 @@
+{
+    "name": "adrian-marinescu-ch/portal-just-romania",
+    "description": "Package generated from http://portalquery.just.ro/query.asmx?WSDL using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.4",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PortalJustRomania\\": "./src/"
+        }
+    }
+}
