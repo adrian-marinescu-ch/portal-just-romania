@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5c1cb1ff9488dfaf470c0846956af38",
+    "content-hash": "412f4c346b7efa9f444ca3846ae9d5f7",
     "packages": [
         {
             "name": "wsdltophp/packagebase",
@@ -80,6 +80,11 @@
                 "models",
                 "php"
             ],
+            "support": {
+                "email": "contact@wsdltophp.com",
+                "issues": "https://github.com/WsdlToPhp/PackageBase/issues",
+                "source": "https://github.com/WsdlToPhp/PackageBase/tree/2.2.3"
+            },
             "time": "2021-07-11T05:43:29+00:00"
         }
     ],
@@ -90,10 +95,10 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.3",
+        "php": ">=5.4",
         "ext-soap": "*",
         "ext-mbstring": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.3.0"
 }
